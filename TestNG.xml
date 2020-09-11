@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury Suite">
+<test name="Mercury Testone" >
+        <groups>	
+  			<run>		
+    			<include name="Smoke" />		
+   			</run>		
+  		</groups>  
+		<classes>
+			<class name="com.mer.MainClassTestNG" />
+		</classes>	
+	</test> 
+</suite>

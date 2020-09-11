@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mercury Suite" duration-ms="69967" started-at="2020-09-11T10:49:48 CDT" finished-at="2020-09-11T10:50:58 CDT">
+    <groups>
+      <group name="Regression">
+        <method signature="MainClassTestNG.testcase1_LoginLinks()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase1_LoginLinks" class="com.mer.MainClassTestNG"/>
+        <method signature="MainClassTestNG.testcase3_Contacts()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase3_Contacts" class="com.mer.MainClassTestNG"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="MainClassTestNG.testcase1_LoginLinks()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase1_LoginLinks" class="com.mer.MainClassTestNG"/>
+        <method signature="MainClassTestNG.testcase2_DentalQuote()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase2_DentalQuote" class="com.mer.MainClassTestNG"/>
+        <method signature="MainClassTestNG.testcase3_Contacts()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase3_Contacts" class="com.mer.MainClassTestNG"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Mercury Testone" duration-ms="69967" started-at="2020-09-11T10:49:48 CDT" finished-at="2020-09-11T10:50:58 CDT">
+      <class name="com.mer.MainClassTestNG">
+        <test-method status="PASS" signature="BeforeAlltest()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="BeforeAlltest" is-config="true" duration-ms="109" started-at="2020-09-11T10:49:48 CDT" finished-at="2020-09-11T10:49:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAlltest -->
+        <test-method status="PASS" signature="DriverSetup()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="DriverSetup" is-config="true" duration-ms="7971" started-at="2020-09-11T10:49:48 CDT" finished-at="2020-09-11T10:49:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method status="PASS" signature="testcase1_LoginLinks()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase1_LoginLinks" duration-ms="5848" started-at="2020-09-11T10:49:56 CDT" finished-at="2020-09-11T10:50:02 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1_LoginLinks -->
+        <test-method status="PASS" signature="DriverQuit(org.testng.ITestResult)[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="DriverQuit" is-config="true" duration-ms="855" started-at="2020-09-11T10:50:02 CDT" finished-at="2020-09-11T10:50:03 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase1_LoginLinks status=SUCCESS method=MainClassTestNG.testcase1_LoginLinks()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverQuit -->
+        <test-method status="PASS" signature="DriverSetup()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="DriverSetup" is-config="true" duration-ms="6916" started-at="2020-09-11T10:50:03 CDT" finished-at="2020-09-11T10:50:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method status="PASS" signature="testcase2_DentalQuote()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase2_DentalQuote" duration-ms="23117" started-at="2020-09-11T10:50:10 CDT" finished-at="2020-09-11T10:50:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2_DentalQuote -->
+        <test-method status="PASS" signature="DriverQuit(org.testng.ITestResult)[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="DriverQuit" is-config="true" duration-ms="5226" started-at="2020-09-11T10:50:33 CDT" finished-at="2020-09-11T10:50:38 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase2_DentalQuote status=SUCCESS method=MainClassTestNG.testcase2_DentalQuote()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverQuit -->
+        <test-method status="PASS" signature="DriverSetup()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="DriverSetup" is-config="true" duration-ms="7034" started-at="2020-09-11T10:50:38 CDT" finished-at="2020-09-11T10:50:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method status="PASS" signature="testcase3_Contacts()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="testcase3_Contacts" duration-ms="11734" started-at="2020-09-11T10:50:45 CDT" finished-at="2020-09-11T10:50:57 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3_Contacts -->
+        <test-method status="PASS" signature="DriverQuit(org.testng.ITestResult)[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="DriverQuit" is-config="true" duration-ms="866" started-at="2020-09-11T10:50:57 CDT" finished-at="2020-09-11T10:50:58 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase3_Contacts status=SUCCESS method=MainClassTestNG.testcase3_Contacts()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverQuit -->
+        <test-method status="PASS" signature="AfterAlltest()[pri:0, instance:com.mer.MainClassTestNG@1d29cf23]" name="AfterAlltest" is-config="true" duration-ms="259" started-at="2020-09-11T10:50:58 CDT" finished-at="2020-09-11T10:50:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAlltest -->
+      </class> <!-- com.mer.MainClassTestNG -->
+    </test> <!-- Mercury Testone -->
+  </suite> <!-- Mercury Suite -->
+</testng-results>
